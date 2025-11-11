@@ -6,7 +6,7 @@
   };
 
   outputs = { self, nixpkgs, ... }: {
-    homeManagerModules.nvim-config = { pkgs, ... }: {
+    homeModules.nvim-config = { pkgs, ... }: {
       home.packages = with pkgs; [
         gnumake
         ripgrep
