@@ -130,7 +130,6 @@ scrollback_pager nvim -c 'set filetype=scrollback'
 
 I manually painted a few [Logo](./Friends-Logo.txt) with unicode for me and friends of mine
 
-<img width="935" height="1080" alt="图片" src="https://github.com/user-attachments/assets/548d24cb-bbde-41fd-9d82-36060d5f62ac" />
 
 You can also be friend of mine.
 And feel free to open an issue if interested in my **nvim-config**.

@@ -9,14 +9,16 @@ require "config.keymaps.debug"
 local map = vim.keymap.set
 
 for abbr, full in pairs(require "config.keymaps.abbr") do
-  map("ia", abbr, full)
+    map("ia", abbr, full)
 end
+
+map("n", "<C-A>", "ggVG")
 
 map("n", "dm", "<cmd>delm!<CR>", { desc = "Delete Marks" })
 map("n", "<UP>", "<C-u>")
 map("n", "<Down>", "<C-d>")
-map("n", "<Left>", "<C-f>")
-map("n", "<Right>", "<C-b>")
+map("n", "<Left>", "<C-b>")
+map("n", "<Right>", "<C-f>")
 -- map("n", "#", [[:%s/\<<C-r><C-w>\>/]], { desc = "Replace" })
 
 map("i", "<C-CR>", "<End><CR>")
