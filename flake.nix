@@ -12,6 +12,7 @@
         ripgrep
         neovide
         zk
+        choose
       ];
 
       xdg.configFile."nvim" = {
