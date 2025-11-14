@@ -11,6 +11,7 @@
         gnumake
         ripgrep
         neovide
+        zk
       ];
 
       xdg.configFile."nvim" = {
