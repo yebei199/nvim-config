@@ -17,7 +17,8 @@
         biome
         tailwindcss
         astro-language-server
-        json-lsp
+        prettier
+        vscode-langservers-extracted
 
       ];
 
