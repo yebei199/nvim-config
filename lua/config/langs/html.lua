@@ -14,7 +14,7 @@ return {
     lsp = "astro",
     pkgs = { "astro-language-server" },
   },
-  formatter = "prettier",
+  formatter = "biome",
   lsp = { "tailwindcss" },
   plugins = {
     {

@@ -13,6 +13,12 @@
         neovide
         zk
         choose
+
+        biome
+        tailwindcss
+        astro-language-server
+        json-lsp
+
       ];
 
       xdg.configFile."nvim" = {
